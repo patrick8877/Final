@@ -1,0 +1,372 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+body{
+    background-color: black;
+    font-family: ‘Noto Sans TC’;
+}
+header{
+    margin-top: 0px;
+    margin-left:0px;
+    margin-right: 0px;
+    display:flex;
+}
+header img{
+    margin-left: 88px;
+    
+}
+.frontbar{
+    margin-top: 37px;
+    margin-left: 875px;
+}
+
+.frontbar a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 770px){
+    #pig{
+        height: 100px;
+        width: 100px;
+    }
+   
+    
+}
+#IMG1{
+    position:absolute;
+    top:153px;
+    left:0px;
+    z-index:1;
+}
+#IMG2{
+    position:absolute;
+    top:520px;
+    left:550px;
+    z-index:2;
+}
+@media screen and (max-width: 770px){
+    #IMG1{
+        background-image: url("image/RWDpag1.jpg");
+        height: 530px;
+        width: 770px;
+    }
+    #IMG2{
+        top:450px;
+        height: 180px;
+        width: 590px;
+        left: 90px;
+    }
+}
+.menu p{
+    position: relative;
+    margin-top: 1002px;
+    margin-left: 880px;
+    color:#F39800;
+}
+.menu h1{
+    position: relative;
+    margin-top: -30px;
+    margin-left: 750px;
+    color:#F39800;
+    font-size: 100px;
+}
+
+
+.menupic{
+    display: flex;
+    margin-left: 325px;
+    margin-top: 150px;
+    width: 900px;
+    margin: 0 auto;
+}
+.menupic img{
+    margin-right: 50px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 770px){
+    .menupic img{
+    margin-right: 50px;
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .menu p{
+        position: relative;
+        margin-top: 300px;
+        margin-left: 350px;
+        color:#F39800;
+    }
+    .menu h1{
+        position: relative;
+        margin-top: -20px;
+        margin-left: 320px;
+        color:#F39800;
+        font-size: 40px;
+    }
+    .disnone{
+        display: none;
+    }
+    .menupic{
+        display: flex;
+        margin-left: 1000px;
+        margin-top: 150px;
+        width: 900px;
+        margin: 0 auto;
+    }
+}
+.story img{
+    position: relative;
+    top:86px;
+}
+
+.storycontent{
+    position:absolute;
+    top:1836px;
+}
+.storycontent p{
+    color:#F39800;
+    margin-left: 880px;
+}
+.storycontent h1{
+    color:#F39800;
+    font-size: 100px;
+    margin-left: 750px;
+    margin-top: -30px;
+}
+@media screen and (max-width: 770px){
+    .story img{
+        background-image: url("image/RWDpag3.jpg");
+        position: relative;
+        top:86px;
+        height: 430px;
+        width: 770px;
+    } 
+    .storycontent{
+        top:1400px;
+    }
+    .storycontent p{
+        color:#F39800;
+        margin-left: 350px;
+    }
+    .storycontent h1{
+        color:#F39800;
+        font-size: 40px;
+        margin-left: 315px;
+        margin-top: -18px;
+    }
+   
+}
+.content p{
+    color:#ffffff;
+    position: relative;
+    font-size: 28px;
+    top:150px;
+    margin-left: 235px;
+}
+@media screen and (max-width: 770px){
+    .content p{
+        position: relative;
+        font-size: 15px;
+        top:5px;
+        margin-left: 100px;
+    }
+}
+.storypic{
+display: flex;
+}
+.fade{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+@media screen and (max-width: 770px){
+   .storypic img{
+       height: 270px;
+       width: 250px; 
+   }
+   #fea1{
+    background-image: url("image/RERED1.jpg");
+   }
+   #fea2{
+    background-image: url("image/RWRED2.jpg");
+   }
+   #fea3{
+    background-image: url("image/RWRED3.jpg");
+   }
+}
+.contact img{
+    position: relative;
+    top:86px; 
+}
+.contactinfo{
+    position:absolute;
+    top:4206px;
+}
+.contactinfo p{
+    color:#F39800;
+    margin-left: 880px;
+}
+.contactinfo h1{
+    color:#F39800;
+    font-size: 100px;
+    margin-left: 600px;
+    margin-top: -30px;
+}
+@media screen and (max-width:770px){
+    .contact img{
+        
+        height: 500px;
+        width: 770px;
+    }
+    .contactinfo{
+        top: 3200px;
+    }
+    .contactinfo p{
+        color:#F39800;
+        margin-left: 350px;
+    }
+    .contactinfo h1{
+        color:#F39800;
+        font-size: 40px;
+        margin-left: 260px;
+        margin-top: -10px;
+    }
+    .pag5 img{
+        height: 1000px;
+        width: 770px;
+    }
+}
+.map img{
+    margin-left: 250px;
+    margin-top: -30px;
+}
+
+.info{
+    display: flex;
+}
+.mapinfo{
+    margin-top: 180px;
+    margin-left: -500px;
+    font-size: 30px;
+}
+@media screen and (max-width: 770px){
+    .map img{
+        height: 300px;
+        width: 300px;
+        margin-left: 220px;
+        margin-top: -70px;
+    }
+    .mapinfo{
+        margin-top: 350px;
+        margin-left: -600px;
+        font-size: 20px;
+    }
+}
+footer{
+    display: flex;
+    font-family: ‘Noto Sans TC’;
+}
+.copyright{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 200px;
+}
+.copyright img{
+    margin-top: 15px;
+}
+.copyright p{
+    color:#ffffff;
+}
+.icon{
+    position: relative;
+    top: 125px;
+    margin-left: 580px;
+}
+.web{
+    position: relative;
+    top: 110px;
+    margin-left: 600px;
+    display: flex;
+}
+.web img{
+    margin-right: 10px;
+}
+@media screen and (max-width:770px){
+    .copyright{
+        margin-top: 100px;
+        display: flex;
+        margin-left: 50px;
+    }
+    .icon{
+        position: relative;
+        top: 125px;
+        margin-left: 170px;
+    }
+    .web{
+        position: relative;
+        top: 110px;
+        margin-left: 220px;
+        display: flex;
+    }
+}
+.end{
+    position: relative;
+    top: 80px;
+    margin-left: 935px;
+    margin-bottom: 250px;
+}
+.end p{
+    font-family: ‘Noto Sans TC’;
+    color:#ffffff;
+}
+.card{
+    /* 設定父親定位點 */
+    position: relative;
+    width: 270px;
+    float:left;
+    margin: 20px;
+  }
+.info1{
+    /*   display: none; */
+      opacity: 0;
+      position: absolute;
+      box-sizing: content-box;
+      background-color:rgba(199, 125, 29, 0.3);
+      top: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      padding-top: 40px;
+    }
+.info1 p{
+    color: #ffffff;
+    font-family: ‘Noto Sans TC’;
+}
+.info1:hover{
+    -webkit-transition: 500ms;
+    opacity: 1;
+}
+.add{
+    background-color:#F39800;
+}
+@media screen and(max-width: 770px){
+    .end{
+        position: relative;
+        top: 80px;
+        margin-left: 600px;
+        margin-bottom: 250px;
+    }
+    .end p{
+        font-family: ‘Noto Sans TC’;
+        color:#ffffff;
+    }
+}
